@@ -1,0 +1,29 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strictNullChecks": true,
+		"skipLibCheck": true,
+		"noUncheckedIndexedAccess": true,
+		"moduleDetection": "force",
+		"allowSyntheticDefaultImports": true,
+		"preserveWatchOutput": true,
+		"baseUrl": "./",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"allowJs": true,
+		"sourceMap": true,
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"strictPropertyInitialization": false
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
