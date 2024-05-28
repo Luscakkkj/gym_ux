@@ -1,0 +1,114 @@
+/* google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* variáveis globais */
+:root{
+    --primary-color:#000000;
+    --segund-color:#ffffff;
+    --primary-container:#E60000;
+    --neutro-color:#777E90;
+    --outline-color:#353945;
+}
+
+body {
+    font-family: "Poppin", sans-serif;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--neutro-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-container);
+   
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.badge.blue {
+    background-color: #007bff;
+}
+
+.badge.green {
+    background-color: #28a745;
+}
+
+.badge.pink {
+    background-color: #e83e8c;
+}
+
+.badge.red {
+    background-color: #dc3545;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    text-align: center;
+    color: var(--segund-color);
+}
+
+.exercise-list h2 {
+    margin-top: 0;
+    color: var(--primary-container);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: var(--outline-color);
+    color: var(--segund-color);
+
+}
+
+table th {
+    background-color: var(--outline-color);
+}
+
+.add-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
